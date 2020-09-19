@@ -262,13 +262,13 @@ label .sharecheckmark:after {
 }
 @media only screen and (max-width: 600px) {
     body {
-      max-width:400px;
+      max-width:390px;
       margin:auto;
     }
 }
 @media only screen and (max-width: 380px) {
     body {
-      max-width:350px;
+      max-width:330px;
       margin:auto;
     }
 }
