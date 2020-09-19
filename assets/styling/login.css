@@ -1,0 +1,295 @@
+body {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+#spot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 75px;
+    height: 70px;
+}
+
+#spotify {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.loginbody {
+    max-width: 450px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#continue {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.btn {
+    margin-bottom: 12px;
+}
+
+.fbbtn,.applebtn,.phonebtn{
+    width: 100%;
+    border: 0px;
+    border-radius: 500px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    padding: 17px 48px;
+}
+#fbbtn{
+    background-color: rgb(58, 88, 151);
+    color: rgb(255, 255, 255);
+}
+
+#fbbtn:hover {
+    background-color: rgb(127, 152, 206);
+}
+
+#applebtn{
+    background-color: black;
+    color: white;
+}
+
+#applebtn:hover{
+    background-color: rgb(59, 58, 58);
+}
+
+#phonebtn{
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+}
+
+#phonebtn:hover{
+    background-color: grey;
+    color: white;
+}
+
+#breakor {
+    display: flex;
+    justify-content: center;
+}
+
+#or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(217,218,220);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#or span {
+    background: #fff;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+label{
+    display: inline-block;
+    color: rgb(34,35,38);
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9dadc;
+    margin-bottom: 10px;
+}
+
+.forgotgroup{
+    padding: 20px 0px 20px 0px;
+}
+
+#forgot{
+    font-size: 16px;
+    color: rgb(122, 122, 122);
+}
+
+#forgot:hover{
+    color: rgb(29, 185, 84);
+}
+
+#remembergroup label, .submitbtn #submit{
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#remember {
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 1px;
+}
+
+#irem {
+    color:rgb(122, 122, 122);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    padding-left: 7px;
+    padding-right: 24px;
+}
+
+.remcheckmark {
+    background: transparent;
+    border-radius: 3px;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    user-select: none;
+    width: 16px;
+    top: 4px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+label input:checked~.remcheckmark:after {
+    display: block;
+}
+
+label:hover input~.remcheckmark {
+    border: 1px solid rgb(29, 185, 84);
+}
+
+label input:checked~.remcheckmark {
+    background-color: rgb(29, 185, 84);
+}
+
+.remcheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+label .remcheckmark:after {
+    top: 2px;
+    left: 5px;
+    height: 8px;
+    width: 4px;
+    border: solid white;
+    border-width: 0px 2px 2px 0px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.but_rem{
+    display: flex;
+    flex-direction: row;
+}
+
+.submitbtn, #remembergroup{
+    flex: 1;
+}
+#submit{
+    width: 100%;
+    border: 0px;
+    border-radius: 500px;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    background-color: rgb(27, 119, 59);
+    color: rgb(255, 255, 255);
+}
+#submit:hover{
+    background-color: rgb(29, 185, 84);
+}
+
+form{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+#dont{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.signupbtn{
+    padding: 10px;
+}
+
+.noaccount{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+.tc p,.tc p a{
+    text-align: center;
+    font-size: .8em;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    color: #616467;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginbody {
+        max-width: 390px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .loginbody {
+        max-width: 330px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .loginbody {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .loginbody {
+        max-width: 270px;
+        margin: auto;
+    }
+}
