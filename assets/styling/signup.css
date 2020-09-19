@@ -260,3 +260,8 @@ label .sharecheckmark:after {
 .link{
     color: rgb(29, 185, 84);
 }
+@media only screen and (max-width: 600px) {
+    body {
+      padding:20px;
+    }
+  }
