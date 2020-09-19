@@ -262,6 +262,6 @@ label .sharecheckmark:after {
 }
 @media only screen and (max-width: 600px) {
     body {
-      padding:20px;
+      margin:30px;
     }
   }
