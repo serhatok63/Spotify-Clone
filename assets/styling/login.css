@@ -209,11 +209,13 @@ label .remcheckmark:after {
 .but_rem{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .submitbtn, #remembergroup{
     flex: 1;
 }
+
 #submit{
     width: 100%;
     border: 0px;
