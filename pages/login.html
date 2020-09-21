@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Spotify</title>
+    <link rel="stylesheet" href="../assets/styling/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="../index.html" id="spot">
+        <img
+          src="../assets/images/Spotify_Logo_auth.jpg"
+          id="logo"
+          alt="logo"
+        />
+        <h1 id="spotify">Spotify</h1>
+      </a>
+    </div>
+    <div class="loginbody">
+      <h1 id="continue">To continue, log in to Spotify</h1>
+      <div class="btn">
+        <a href="#">
+          <button class="fbbtn" id="fbbtn">
+            <i class="fa fa-facebook"></i> Continue with Facebook
+          </button>
+        </a>
+      </div>
+      <div class="btn">
+        <a href="#">
+          <button class="applebtn" id="applebtn">
+            <i class="fa fa-apple"></i> Continue with Apple
+          </button>
+        </a>
+      </div>
+      <div class="btn">
+        <a href="#">
+          <button class="phonebtn" id="phonebtn">
+            Continue with Phone Number
+          </button>
+        </a>
+      </div>
+      <div id="breakor">
+        <p id="or"><span>OR</span></p>
+      </div>
+      <form>
+        <div class="emailgroup">
+          <div class="emaillab">
+            <label for="email">Email address or username</label>
+          </div>
+          <div class="emailinp">
+            <input
+              type="text"
+              class="input"
+              placeholder="Email address or username"
+              required
+            />
+          </div>
+        </div>
+        <div class="passgroup">
+          <div class="passlab">
+            <label for="pass">Password</label>
+          </div>
+          <div class="passinp">
+            <input type="password" class="input" placeholder="Password" required />
+          </div>
+        </div>
+        <div class="forgotgroup">
+          <a href="#" id="forgot">Forgot your password?</a>
+        </div>
+        <div class="but_rem">
+          <div id="remembergroup">
+            <label>
+              <input type="checkbox" id="remember" value />
+              <span class="remcheckmark"></span>
+              <span id="irem">Remember me</span>
+            </label>
+          </div>
+          <div class="submitbtn">
+            <button id="submit">LOG IN</button>
+          </div>
+        </div>
+      </form>
+      <div class="noaccount">
+        <h2 id="dont">Don't have an account?</h2>
+        <div class="signupbtn">
+            <a href="./signUp.html">
+                <button class="phonebtn" id="phonebtn" style="padding: 12px 48px;">
+                  Sign up for spotify
+                </button>
+            </a>
+        </div>
+      </div>
+      <div class="tc">
+        <p>If you click "Log in with Facebook" and are not a Spotify user, you will be registered and you agree to Spotify's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+      </div>
+    </div>
+  </body>
+</html>

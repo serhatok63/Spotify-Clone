@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="../assets/styling/signup.css" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+    <div id="spotsign">
+      <a href="../index.html" id="spot">
+        <img
+          src="../assets/images/Spotify_Logo_auth.jpg"
+          id="logo"
+          alt="logo"
+        />
+        <h2>Spotify</h2>
+      </a>
+      <h2 id="free">Sign up for free to start listening.</h2>
+    </div>
+    <div id="fb">
+      <a href="#">
+        <button id="fbbtn">Sign up with Facebook</button>
+      </a>
+    </div>
+    <div id="breakor">
+      <p id="or"><span>or</span></p>
+    </div>
+    <form>
+      <h2 id="formh2">Sign up with your email address</h2>
+      <div class="group" id="emailgroup">
+        <div id="emaillab">
+          <label for="email">What's your email?</label>
+        </div>
+        <div id="emailinp">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            id="email"
+            value
+            required
+          />
+        </div>
+      </div>
+      <div class="group" id="confirmemailgroup">
+        <div id="confirmemaillab">
+          <label for="cemail">Confirm your email</label>
+        </div>
+        <div id="confirmemailinp">
+          <input
+            type="email"
+            placeholder="Enter your email again"
+            id="cemail"
+            value
+            required
+          />
+        </div>
+      </div>
+      <div class="group" id="passwordgroup">
+        <div id="passwordlab">
+          <label for="pass">Confirm your password.</label>
+        </div>
+        <div id="passwordinp">
+          <input
+            type="password"
+            placeholder="Create your password."
+            id="pass"
+            value
+            required
+          />
+        </div>
+      </div>
+      <div class="group" id="namegroup">
+        <div id="namelab">
+          <label for="pname">What should we call you?</label>
+        </div>
+        <div id="nameinp">
+          <input
+            type="text"
+            placeholder="Enter a profile name."
+            id="pname"
+            value
+            required
+          />
+        </div>
+        <div id="nameinfo">This appears on your profile.</div>
+      </div>
+      <div class="group" id="dobgroup">
+        <div id="doblab">
+          <label>What's your date of birth?</label>
+        </div>
+        <div class="dobparent">
+          <div class="year">
+            <div id="yearlab">
+              <label for="year">Year</label>
+            </div>
+            <div id="yearinp">
+              <input
+                type="number"
+                placeholder="YYYY"
+                id="year"
+                value
+                required
+              />
+            </div>
+          </div>
+          <div class="month">
+            <div id="monthlab">
+              <label for="month">Month</label>
+            </div>
+            <div id="monthinp">
+              <select name="month" id="month" placeholder="Month" required>
+                <option disabled selected>Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+          </div>
+          <div class="day">
+            <div id="daylab">
+              <label for="day">Day</label>
+            </div>
+            <div id="dayinp">
+              <input type="number" placeholder="DD" id="day" value required />
+            </div>
+          </div>
+        </div>
+        <div class="group" id="gendergroup">
+          <div id="genderlab">
+            <label>What's your gender?</label>
+          </div>
+          <div id="genderinp">
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                class="radio"
+                required
+              />
+              <span class="checkmark"></span>
+              <span>Male</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+                class="radio"
+                required
+              />
+              <span class="checkmark"></span>
+              <span>Female</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                id="nonb"
+                value="non-binary"
+                class="radio"
+                required
+              />
+              <span class="checkmark"></span>
+              <span>Non-binary</span>
+            </label>
+          </div>
+        </div>
+        <div class="group" id="sharegroup">
+          <label>
+            <input type="checkbox" id="share" value required />
+            <span class="sharecheckmark"></span>
+            <span id="ishare">Share my registration data with Spotify's content providers for
+              marketing purposes.</span>
+          </label>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LfDIs4ZAAAAAOLRBDS6l0JzIgvW3L8JTHSEbQ3U"></div>
+        <div class="endform">
+            <p>By clicking on Sign up, you agree to Spotify's <span><a href="#" class="link">Terms and Conditions of Use</a></span></p>
+            <p>To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's <span><a href="#" class="link">Privacy Policy</a></span></p>
+            <div class="submit">
+                <button type="submit" id="submitbtn">SIGN UP</button>
+            </div>
+            <p id="log">Have an account? <span><a href="./login.html" class="link">Log in</a></span></p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
