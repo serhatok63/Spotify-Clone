@@ -369,6 +369,9 @@ a:visited {
     color: #919496;  
 }
 .botlink li a:hover{
+    color: white; 
+}
+.botlink li a:hover{
     color:#1ed760; 
 }
 .botlink span{
