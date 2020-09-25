@@ -365,11 +365,11 @@ a:visited {
     font-size: 12px;
     font-weight: 400;
 }
+.toplink a, .sublist li a, .social li a, .india a{
+    color: white;
+}
 .botlink li a{
     color: #919496;  
-}
-.toplink a{
-    color:white;
 }
 .botlink li a:hover{
     color:#1ed760; 
