@@ -6,6 +6,9 @@
 li{
     list-style-type:none ;
 }
+a{
+    color:white;
+}
 /* Header css start */
 .header {
   background-color: black;
@@ -537,10 +540,16 @@ a:visited {
         max-width: 380px;
         padding: 10px 0 10px;
     }
+    .footnav{
+        width:380px;
+    }
 }
 @media only screen and (max-width: 390px) {
     .body {
         max-width: 330px;
+    }
+    .footnav{
+        width:330px;
     }
 }
 
@@ -548,10 +557,16 @@ a:visited {
     .body {
         max-width: 300px;
     }
+    .footnav{
+        width:300px;
+    }
 }
 
 @media only screen and (max-width: 300px) {
     .body {
         max-width: 270px;
+    }
+    .footnav{
+        width:270px;
     }
 }
