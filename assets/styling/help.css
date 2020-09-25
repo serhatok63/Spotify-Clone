@@ -368,8 +368,8 @@ a:visited {
 .botlink li a{
     color: #919496;  
 }
-.botlink li a:hover{
-    color: white; 
+.toplink a{
+    color:white;
 }
 .botlink li a:hover{
     color:#1ed760; 
