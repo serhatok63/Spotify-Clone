@@ -541,7 +541,7 @@ a:visited {
         padding: 10px 0 10px;
     }
     .footnav{
-        width:380px;
+        width:350px;
     }
 }
 @media only screen and (max-width: 390px) {
@@ -549,16 +549,15 @@ a:visited {
         max-width: 330px;
     }
     .footnav{
-        width:330px;
+        width:315px;
     }
 }
-
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 360px) {
     .body {
         max-width: 300px;
     }
     .footnav{
-        width:300px;
+        width:260px;
     }
 }
 
@@ -567,6 +566,6 @@ a:visited {
         max-width: 270px;
     }
     .footnav{
-        width:270px;
+        width:220px;
     }
 }
