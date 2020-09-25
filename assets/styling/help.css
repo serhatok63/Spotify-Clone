@@ -242,5 +242,6 @@ a:visited {
     }
     .input-field{
         width: 70%;
+        margin: 0 20px;
     }
 }
